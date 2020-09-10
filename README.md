@@ -34,8 +34,8 @@ Delete all tables from the minions database using SQL query. Submit your query i
 
 ###    7. Create Table People
 Using SQL query create table “people” with columns:\
->   • id – unique number for every person there will be no more than 231-1people. (Auto incremented)\
->   • name – full name of the person will be no more than 200 Unicode characters. (Not null)\
+>   • id – unique number for every person there will be no more than 231-1people. (Auto incremented)
+>   • name – full name of the person will be no more than 200 Unicode characters. (Not null)
 >   • picture – image with size up to 2 MB. (Allow nulls)\
     • height –  In meters. Real number precise up to 2 digits after floating point. (Allow nulls)\
     • weight –  In kilograms. Real number precise up to 2 digits after floating point. (Allow nulls)\
