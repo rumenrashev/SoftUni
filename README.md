@@ -25,6 +25,7 @@ id | name
 1 | Sofia
 2 | Plovdiv
 3| Varna
+
 Use only insert SQL queries. Submit your INSERT statements in Judge as Run skeleton, run queries & check DB.
 ###    5. Truncate Table Minions
 Delete all the data from the minions table using SQL query. Submit your query in Judge as Run skeleton, run queries & check DB.
