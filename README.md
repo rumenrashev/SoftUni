@@ -11,42 +11,20 @@ Change the structure of the Minions table to have new column town_id that would 
 ###    4. Insert Records in Both Tables
 Populate both tables with sample records given in the table below.
 minions
-| towns |
-| ---|
+
+##### minions
 id | name | age | town_id
----| ---| --- | ---|
-1 | Kevin 22 | 1
+---| ---| ---| ---|
+1 | Kevin | 22 | 1
+2 | Bob | 15 | 3
+3 | Steward | NULL | 2
 
-
-towns
-id
-name
-age
-town_id
-
-id
-name
-1
-Kevin
-22
-1
-
-1
-Sofia
-2
-Bob
-15
-3
-
-2
-Plovdiv
-3
-Steward
-NULL
-2
-
-3
-Varna
+##### towns
+id | name
+| --- | --- |
+1 | Sofia
+2 | Plovdiv
+3| Varna
 Use only insert SQL queries. Submit your INSERT statements in Judge as Run skeleton, run queries & check DB.
 ###    5. Truncate Table Minions
 Delete all the data from the minions table using SQL query. Submit your query in Judge as Run skeleton, run queries & check DB.
