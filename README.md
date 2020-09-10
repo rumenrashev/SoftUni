@@ -108,24 +108,30 @@ Id columns are auto incremented starting from 1 and increased by 1 (1, 2, 3, 4�
 By using mysqldump command from MySql command line make a backup of the database soft_uni, from the previous tasks, into a file named “softuni-backup.sql”. Drop your database from Heidi or MySQL Workbench. Then restore the database from the created backup file by using mysql  command line.
 ###    17. Basic Insert
 Use the SoftUni database and insert some data using SQL queries.
+<pre>
     • towns: Sofia, Plovdiv, Varna, Burgas
     • departments: Engineering, Sales, Marketing, Software Development, Quality Assurance
     • employees:
+    </pre>
 
 Submit your INSERT queries in Judge as Run skeleton, run queries & check DB.
 ###    18. Basic Select All Fields
 Use the soft_uni database and first select all records from the towns, then from departments and finally from employees table. Use SQL queries and submit them to Judge at once. Submit your query statements as Prepare DB & Run queries.
 ###    19. Basic Select All Fields and Order Them
 Modify queries from previous problem by sorting:
+<pre>
     • towns - alphabetically by name
     • departments - alphabetically by name
     • employees - descending by salary
+    </pre>
 Submit your query statements as Prepare DB & Run queries.
 ###    20. Basic Select Some Fields
 Modify queries from previous problem to show only some of the columns. For table:
+<pre>
     • towns – name
     • departments – name
     • employees – first_name, last_name, job_title, salary
+    </pre>
 Keep the ordering from the previous problem. Submit your query statements as Prepare DB & Run queries.
 ###    21. Increase Employees Salary
 Use softuni database and increase the salary of all employees by 10%. Select only salary column from the employees table. Submit your query statements as Prepare DB & Run queries.
