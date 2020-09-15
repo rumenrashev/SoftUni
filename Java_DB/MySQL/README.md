@@ -103,15 +103,14 @@ Now create bigger database called soft_uni. You will use database in the future 
     • employees (id, first_name, middle_name, last_name, job_title, department_id, hire_date, salary, address_id)
     </pre>
 Id columns are auto incremented starting from 1 and increased by 1 (1, 2, 3, 4…). Make sure you use appropriate data types for each column. Add primary and foreign keys as constraints for each table. Use only SQL queries. Consider which fields are always required and which are optional. Submit your CREATE TABLE  statements as Run queries & check DB.
-
-Use the SoftUni database and insert some data using SQL queries.
-    • towns: Sofia, Plovdiv, Varna, Burgas
-    • departments: Engineering, Sales, Marketing, Software Development, Quality Assurance
-    • employees:
     
   name | job_title | department | hire_date | salary
   ---| --- | --- | --- | --- |
   Ivan Ivanov Ivanov |.NET Developer |Software Development |01/02/2013 |3500.00
+  Petar Petrov Petrov | Senior Engineer | Engineering | 02/03/2004 | 4000.00 
+  Maria Petrova Ivanova | Intern | Quality Assurance | 28/08/2016 | 525.25
+  Georgi Terziev Ivanov | CEO | Sales | 09/12/2007 | 3000.00
+  Peter Pan Pan | Intern | Marketing | 28/08/2016 | 599.88
 
 
 ###    16. Backup Database
