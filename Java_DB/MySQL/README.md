@@ -109,9 +109,9 @@ Use the SoftUni database and insert some data using SQL queries.
     • departments: Engineering, Sales, Marketing, Software Development, Quality Assurance
     • employees:
     
-     name | job_title | department | hire_date | salary
-     ---| --- | --- | --- | --- |
-    Ivan Ivanov Ivanov |.NET Developer |Software Development |01/02/2013 |3500.00
+  name | job_title | department | hire_date | salary
+  ---| --- | --- | --- | --- |
+  Ivan Ivanov Ivanov |.NET Developer |Software Development |01/02/2013 |3500.00
 
 
 ###    16. Backup Database
