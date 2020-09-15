@@ -110,8 +110,8 @@ Use the SoftUni database and insert some data using SQL queries.
     • employees:
     
     | name | job_title | department | hire_date | salary
-    | ---| --- | --- | ---| ---|
-    Ivan Ivanov Ivanov|.NET Developer|Software Development|01/02/2013|3500.00
+    | ---| --- | --- | --- | --- |
+    Ivan Ivanov Ivanov |.NET Developer |Software Development |01/02/2013 |3500.00
 
 
 ###    16. Backup Database
