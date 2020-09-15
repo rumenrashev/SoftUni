@@ -4,7 +4,7 @@
 You now know how to create database using the GUI of the HeidiSQL. Now it’s time to create it using SQL queries. In that task (and the several following it) you will be required to create the database from the previous exercise using only SQL queries. Firstly, just create new database named minions.
 
 ### 2.Create Tables
-In the newly created database Minions add table minions (id, name, age). Then add new table towns (id, name). Set id columns of both tables to be primary key as constraint. Submit your create table queries in Judge together for both tables (one after another separated by “;”) as Run queries & check DB.
+In the newly created database Minions add table minions (id, name, age). Then add new table towns (town_id, name). Set id and town_id columns of both tables to be primary key as constraint, id's must be auto increment. Submit yours create table queries in Judge together for both tables (one after another separated by ";") as Run queries & check DB.
 
 ###    3. Alter Minions Table
 Change the structure of the Minions table to have new column town_id that would be of the same type as the id column of towns table. Add new constraint that makes town_id foreign key and references to id column of towns table. Submit your create table query in Judge as MySQL run skeleton, run queries & check DB
@@ -94,7 +94,7 @@ Using SQL queries create Hotel database with the following entities:
     • occupancies (id, employee_id, date_occupied, account_number, room_number, rate_applied, phone_charge, notes)
     </pre>
 Set most appropriate data types for each column. Set primary key to each table. Populate each table with 3 records. Make sure the columns that are present in 2 tables would be of the same data type. Consider which fields are always required and which are optional. Submit your CREATE TABLE and INSERT statements as Run queries & check DB.
-###    15. Create SoftUni Database
+###    15. Basic Insert
 Now create bigger database called soft_uni. You will use database in the future tasks. It should hold information about
 <pre>
     • towns (id, name)
@@ -103,6 +103,16 @@ Now create bigger database called soft_uni. You will use database in the future 
     • employees (id, first_name, middle_name, last_name, job_title, department_id, hire_date, salary, address_id)
     </pre>
 Id columns are auto incremented starting from 1 and increased by 1 (1, 2, 3, 4…). Make sure you use appropriate data types for each column. Add primary and foreign keys as constraints for each table. Use only SQL queries. Consider which fields are always required and which are optional. Submit your CREATE TABLE  statements as Run queries & check DB.
+
+Use the SoftUni database and insert some data using SQL queries.
+    • towns: Sofia, Plovdiv, Varna, Burgas
+    • departments: Engineering, Sales, Marketing, Software Development, Quality Assurance
+    • employees:
+    
+    | name | job_title | department | hire_date | salary
+    | ---| --- | --- | ---| ---|
+    Ivan Ivanov Ivanov|.NET Developer|Software Development|01/02/2013|3500.00
+
 
 ###    16. Backup Database
 By using mysqldump command from MySql command line make a backup of the database soft_uni, from the previous tasks, into a file named “softuni-backup.sql”. Drop your database from Heidi or MySQL Workbench. Then restore the database from the created backup file by using mysql  command line.
