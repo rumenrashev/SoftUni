@@ -1,14 +1,9 @@
-CREATE TABLE minions(
-	`id` INT AUTO_INCREMENT,
+CREATE TABLE `minions`(
+	`id` INT PRIMARY KEY,
     `name` VARCHAR(50),
-    `age` INT,
-    
-    PRIMARY KEY(`id`)
+    `age` INT
 );
-
-CREATE TABLE towns(
-	`id` INT AUTO_INCREMENT,
-    `name` VARCHAR(50),
-    
-    PRIMARY KEY(`id`)
+CREATE TABLE `towns`(
+	`town_id` INT PRIMARY KEY,
+    `name` VARCHAR(50)
 );
