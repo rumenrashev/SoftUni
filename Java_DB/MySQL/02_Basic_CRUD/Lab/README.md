@@ -7,7 +7,7 @@ Download and get familiar with the hotel database schemas and tables. You will u
 Write a query to select all employees and retrieve information about their id, first_name, last_name and job_title ordered by id.
 
 Example
-id | first_name ! last_name | job_title
+id | first_name | last_name | job_title
 --- | --- | --- | --- 
 1 | John | Smith | Manager | 
 2 | John | Johnson | Customer Service
