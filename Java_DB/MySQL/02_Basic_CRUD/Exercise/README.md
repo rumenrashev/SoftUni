@@ -52,7 +52,7 @@ Roberto | NULL | Tamburello
 Write a SQL query to find the email address of each employee. (by his first and last name). Consider that the email domain is softuni.bg. Emails should look like "John.Doe@softuni.bg". The produced column should be named "full_ email_address".  Submit your query statements as Prepare DB & run queries. 
 Example 
 full_email_address 
----
+| --- |
 Guy.Gilbert@softuni.bg 
 Kevin.Brown@softuni.bg 
 Roberto.Tamburello@softuni.bg 
@@ -62,7 +62,7 @@ Roberto.Tamburello@softuni.bg
 Write a SQL query to find all different employee's salaries. Show only the salaries. Sort the information by id.  Submit your query statements as Prepare DB & run queries.  
 Example
 Salary 
----
+| --- |
 12500.00 
 13500.00 
 43300.00 
@@ -74,36 +74,6 @@ Example
 id |First Name | Last Name | Middle Name | Job Title | Dept ID | Mngr ID | Hire Date | salary | address_id 
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 275 | Michael | Blythe | G | Sales | Representative | 3 | 268 | … | 23100.00 | 60 
-276 
-Linda 
-Mitchell 
-C 
-Sales 
-Representative 
-3 
-268 
-… 
-23100.00 
-170 
-277 
-Jillian 
-Carson 
-NULL 
-Sales 
-Representative 
-3 
-268 
-… 
-23100.00 
-61 
-… 
-… 
-… 
-… 
-… 
-… 
-… 
-… 
-… 
-… 
+276 | Linda Mitchell | C | Sales Representative | 3 | 268 | … | 23100.00 | 170 
+… | … | … | … | … | … | … | … | … | … 
 
