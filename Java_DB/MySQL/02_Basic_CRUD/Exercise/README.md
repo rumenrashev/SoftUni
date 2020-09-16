@@ -77,3 +77,130 @@ id |First Name | Last Name | Middle Name | Job Title | Dept ID | Mngr ID | Hire 
 276 | Linda Mitchell | C | Sales Representative | 3 | 268 | … | 23100.00 | 170 
 … | … | … | … | … | … | … | … | … | … 
 
+### 8. Find Names of All Employees by salary in Range ###
+Write a SQL query to find the first name, last name and job title of all employees whose salary is in the range [20000, 30000]. Sort the information by id. Submit your query statements as Prepare DB & run queries. 
+Example 
+first_name | last_name | JobTitle 
+--- | --- | ---
+Rob | Walters | Senior Tool Designer 
+Thierry | D'Hers | Tool Designer 
+JoLynn | Dobney | Production Supervisor 
+… | … | … 
+
+### 9.  Find Names of All Employees  ###
+Write a SQL query to find the full name of all employees whose salary is 25000, 14000, 12500 or 23600. Full Name is combination of first, middle and last name (separated with single space) and they should be in one column called "Full Name". Submit your query statements as Prepare DB & run queries. 
+Example 
+Full Name 
+| --- |
+Guy R Gilbert 
+Thierry B D'Hers 
+JoLynn M Dobney 
+
+### 10. Find All Employees Without Manager ### 
+Write a SQL query to find first and last names about those employees that does not have a manager. Submit your query statements as Prepare DB & run queries. 
+Example 
+first_name | last_name 
+--- | ---
+Ken | Sanchez 
+Svetlin | Nakov 
+… | … 
+
+### 11. Find All Employees with salary More Than 50000 ###
+Write a SQL query to find first name, last name and salary of those employees who has salary more than 50000. Order them in decreasing order by salary. Submit your query statements as Prepare DB & run queries. 
+Example 
+first_name | last_name | salary
+--- | --- | --- | 
+Ken | Sanchez | 125500.00 
+James | Hamilton | 84100.00 
+… | … | … 
+
+### 12. Find 5 Best Paid Employees ### 
+Write SQL query to find first and last names about 5 best paid Employees ordered descending by their salary. Submit your query statements as Prepare DB & run queries. 
+Example 
+first_name | last_name 
+--- | ---
+Ken | Sanchez 
+James | Hamilton 
+… | … 
+
+### 13. Find All Employees Except Marketing ###
+Write a SQL query to find the first and last names of all employees whose department ID is different from 4. Submit your query statements as Prepare DB & run queries. 
+Example 
+first_name | last_name 
+--- | ---
+Guy | Gilbert 
+Roberto | Tamburello 
+Rob | Walters 
+…| …
+
+### 14. Sort Employees Table ###
+Write a SQL query to sort all records in the еmployees table by the following criteria:  
+    • First by salary in decreasing order 
+    • Then by first name alphabetically 
+    • Then by last name descending 
+    • Then by middle name alphabetically 
+Sort the information by id. Submit your query statements as Prepare DB & run queries. 
+Example 
+id | First Name | Last Name | Middle Name | job_title | Dept ID | Mngr ID | Hire Date | salary | address_id 
+--- | --- | --- | --- | --- | --- | ---| --- | --- | --- |
+109 | Ken | Sanchez | J | Chief Executive Officer | 16 | NULL | … | 125500.00 | 177 
+… | … | … | … | … | … | … | … | … | … 
+
+### 15. Create View Employees with Salaries ### 
+Write a SQL query to create a view v_employees_salaries with first name, last name and salary for each employee. Submit your query statements as Run skeleton, run queries & check DB.  
+Example 
+first_name | last_name | salary 
+--- | --- | ---
+Guy | Gilbert | 12500.00 
+Kevin | Brown | 13500.00 
+… | … | … 
+
+### 16. Create View Employees with Job Titles ###
+Write a SQL query to create view v_employees_job_titles with full employee name and job title. When middle name is NULL replace it with empty string (''). Submit your query statements as Run skeleton, run queries & check DB. 
+Example 
+full_name | job_title 
+--- | ---
+Guy R Gilbert | Production Technician 
+Kevin F Brown | Marketing Assistant 
+Roberto Tamburello | Engineering Manager 
+… | …
+
+### 17.  Distinct Job Titles ### 
+Write a SQL query to find all distinct job titles. Sort the result by job title alphabetically. Submit your query statements as Prepare DB & run queries. 
+Example 
+Job_title
+| --- | 
+Accountant 
+Accounts Manager 
+Accounts Payable Specialist 
+… 
+
+### 18. Find First 10 Started Projects ###
+Write a SQL query to find first 10 started projects. Select all information about them and sort them by start date, then by name. Sort the information by id.  Submit your query statements as Prepare DB & run queries. 
+Example 
+
+id | Name | Description | start_date | end_date 
+--- | --- | --- | --- | ---
+6 | HL Road Frame Research, design and development of HL Road … | 1998-05-02 00:00:00 | 2003-06-01 00:00:00 
+2 | Cycling Cap | Research, design and development of C… | 2001-06-01 00:00:00 | 2003-06-01 00:00:00 
+5 | HL Mountain Frame | Research, design and development of HL M… | 2001-06-01 00:00:00 | 2003-06-01 00:00:00 
+… | … | … | … | …
+
+### 19.  Last 7 Hired Employees ### 
+Write a SQL query to find last 7 hired employees. Select their first, last name and their hire date. Submit your query statements as Prepare DB & run queries. 
+Example 
+
+first_name | last_name | hire_date 
+--- | --- | --- 
+Rachel | Valdez | 2005-07-01 00:00:00 
+Lynn | Tsoflias | 2005-07-01 00:00:00 
+Syed | Abbas | 2005-04-15 00:00:00 
+… | … | … 
+
+
+
+
+
+
+
+
