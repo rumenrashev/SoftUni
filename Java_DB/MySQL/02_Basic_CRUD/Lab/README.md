@@ -18,7 +18,7 @@ id | first_name | last_name | job_title
 Write a query to select all employees (id, first_name and last_name (as full_name), job_title, salary) whose salaries are higher than 1000.00, ordered by id. Concatenate fields first_name and last_name into 'full_name'.
 Example
 
-id | first_name ! last_name | job_title | salary
+id | first_name | last_name | job_title | salary
 --- | --- | --- | --- | ---
 3 | Smith Johnson | Porter | 1100
 4 | Peter Petrov | Front Desk Clerk | 1100
@@ -36,7 +36,7 @@ Write a query to create a view that selects all information about the top paid e
 Example
 
 
-id | first_name ! last_name | job_title | salary
+id | first_name | last_name | job_title | salary
 --- | --- | --- | --- | ---
 8 | Pedro | Petrov | Front Desk Supervisor | 1 | 2100
 
@@ -44,7 +44,7 @@ id | first_name ! last_name | job_title | salary
 Write a query to retrieve information about employees, who are in department 4 and has a salary higher or equal to 1000. Order the information by id.
 Example
 
-id | first_name ! last_name | job_title | salary
+id | first_name | last_name | job_title | salary
 --- | --- | --- | --- | ---
 3 | Smith | Johnson | Porter | 4 | 1100
 9 | Nikolay | Ivanov | Housekeeping | 4 | 1600
@@ -53,7 +53,7 @@ id | first_name ! last_name | job_title | salary
 Write a query to delete all employees from the "employees" table who are in department 2 or 1. Order the information by id.
 Example
 
-id | first_name ! last_name | job_title | salary
+id | first_name | last_name | job_title | salary
 --- | --- | --- | --- | ---
 3 | Smith | Johnson | Porter | 4 | 1100
 6 | Ivan | Petrov | Waiter | 3 | 990
