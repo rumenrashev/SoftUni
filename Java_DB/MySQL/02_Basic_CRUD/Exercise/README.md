@@ -197,6 +197,65 @@ Lynn | Tsoflias | 2005-07-01 00:00:00
 Syed | Abbas | 2005-04-15 00:00:00 
 … | … | … 
 
+### 20. Increase Salaries ### 
+Write a SQL query to increase salaries of all employees that are in the Engineering, Tool Design, Marketing or Information Services department by 12%. Then select Salaries column from the Employees table. Submit your query statements as Prepare DB & run queries. 
+Example 
+Salary 
+| --- |
+12500.00 
+15120.00 
+48496.00 
+33376.00 
+… 
+
+### Part II – Queries for Geography Database ###
+
+### 21.  All Mountain Peaks ### 
+Display all mountain peaks in alphabetical order. Submit your query statements as Prepare DB & run queries. 
+Example 
+peak_name
+| --- | 
+Aconcagua 
+Banski Suhodol 
+Batashki Snezhnik 
+… 
+
+### 22.  Biggest Countries by Population ###
+Find the 30 biggest countries by population from Europe. Display the country name and population. Sort the results by population (from biggest to smallest), then by country alphabetically. Submit your query statements as Prepare DB & run queries. 
+Example 
+country_name | population 
+--- | ---
+Russia | 140702000 
+Germany | 81802257 
+France | 64768389 
+… | … 
+
+### 23.  Countries and Currency (Euro / Not Euro) ###
+Find all countries along with information about their currency. Display the country name, country code and information about its currency: either "Euro" or "Not Euro". Sort the results by country name alphabetically. Submit your query statements as Prepare DB & run queries. 
+Example 
+country_name | country_code | currency
+--- | --- | --- 
+Afghanistan | AF | Not Euro 
+Åland | AX | Euro 
+Albania | AL | Not Euro 
+… | … | … 
+
+### Part III – Queries for Diablo Database ###
+
+
+### 24.  All Diablo Characters ###
+Display the name of all characters in alphabetical order. Submit your query statements as Prepare DB & run queries. 
+Example 
+name 
+| --- |
+Amazon 
+Assassin 
+Barbarian 
+… 
+
+
+
+
 
 
 

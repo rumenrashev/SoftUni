@@ -1,4 +1,3 @@
-USE `Hotel`;
 
 UPDATE `employees`
 SET `salary` = `salary` + 100

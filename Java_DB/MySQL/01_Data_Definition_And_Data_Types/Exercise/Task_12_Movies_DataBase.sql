@@ -1,9 +1,3 @@
-DROP DATABASE `movies`;
-
-CREATE DATABASE `movies`;
-
-USE `movies`;
-
 CREATE TABLE `directors`(
 	`id` INT AUTO_INCREMENT,
 	`director_name` VARCHAR(50) NOT NULL,
