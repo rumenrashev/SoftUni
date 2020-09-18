@@ -1,15 +1,14 @@
-    CREATE TABLE `people`(
-		`id` INT UNSIGNED AUTO_INCREMENT,
-        `name` VARCHAR(200) NOT NULL,
-        `picture` BLOB(2000000),
-        `height` DOUBLE(3,2),
-        `weight` DOUBLE(3,2),
-        `gender` ENUM('f','m') NOT NULL,
-        `birthdate` DATE NOT NULL,
-        `biography` LONGTEXT,
-        
-        PRIMARY KEY(`id`)
-    );
+CREATE TABLE `people` (
+    `id` INT UNSIGNED AUTO_INCREMENT,
+    `name` VARCHAR(200) NOT NULL,
+    `picture` BLOB(2000000),
+    `height` DOUBLE(3 , 2 ),
+    `weight` DOUBLE(3 , 2 ),
+    `gender` ENUM('f', 'm') NOT NULL,
+    `birthdate` DATE NOT NULL,
+    `biography` LONGTEXT,
+    PRIMARY KEY (`id`)
+);
     
         INSERT INTO `people`(`name`,`gender`,`birthdate`)
     VALUES
