@@ -146,6 +146,43 @@ bindbawdy | 192.157.20.222
 evolvingimportant | 223.175.227.173
 inguinalself | 255.111.250.207
 
+###    15.  Show All Games with Duration and Part of the Day ###
+Find all games with their corresponding part of the day and duration. Parts of the day should be Morning (start time is >= 0 and < 12), Afternoon (start time is >= 12 and < 18), Evening (start time is >= 18 and < 24). Duration should be Extra Short (smaller or equal to 3), Short (between 3 and 6 including), Long (between 6 and 10 including) and Extra Long in any other cases or without duration. Submit your query statements as Prepare DB & run queries.
+Example
+game | Part of the Day | Duration
+--- | --- | ---
+Aithusa | Evening | Short
+Acid green | Morning | Long
+Apple | Morning | Short
+Broadway | Morning | Short
+Ancalagon | Morning | Short
+Allium drumstick | Morning | Extra Long
+… | … | …
+
+### Part IV – Date Functions Queries ###
+   
+ ###   16.  Orders Table ###
+You are given a table orders (id, product_name, order_date) filled with data. Consider that the payment for an order must be accomplished within 3 days after the order date. Also the delivery date is up to 1 month. Write a query to show each product's name, order date, pay and deliver due dates. Submit your query statements as Prepare DB & run queries.
+Original Table
+id | product_name | order_date
+--- | --- | ---
+1 | Butter | 2016-09-19 00:00:00
+2 | Milk | 2016-09-30 00:00:00
+3 | Cheese | 2016-09-04 00:00:00
+4 | Bread | 2015-12-20 00:00:00
+5 | Tomatoes | 2015-12-30 00:00:00
+… | … | …
+
+Output
+product_name | order_date | pay_due | deliver_due
+--- | --- | --- | --- | ---
+Butter | 2016-09-19 00:00:00 | 2016-09-22 00:00:00 | 2016-10-19 00:00:00
+Milk | 2016-09-30 00:00:00 | 2016-10-03 00:00:00 | 2016-10-30 00:00:00
+Cheese | 2016-09-04 00:00:00 | 2016-09-07 00:00:00 | 2016-10-04 00:00:00
+Bread | 2015-12-20 00:00:00 | 2015-12-23 00:00:00 | 2016-01-20 00:00:00
+Tomatoes | 2015-12-30 00:00:00 | 2016-01-02 00:00:00 | 2016-01-30 00:00:00
+… | … | … | …
+
 
 
 
