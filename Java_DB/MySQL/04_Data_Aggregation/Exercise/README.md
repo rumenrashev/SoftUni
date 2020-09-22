@@ -90,7 +90,37 @@ age_group | wizard_count
 [11-20] | 21
 … | …
 
+### 10. First Letter ###
+Write a query that returns all unique wizard first letters of their first names only if they have deposit of type Troll Chest. Order them alphabetically. Use GROUP BY for uniqueness.
+Example:
+first_letter
+| --- |
+A
+…
 
 
+### 11.	Average Interest ###
+Mr. Bodrog is highly interested in profitability. He wants to know the average interest of all deposits groups split by whether the deposit has expired or not. But that's not all. He wants you to select deposits with start date after 01/01/1985. Order the data descending by Deposit Group and ascending by Expiration Flag.
+Example:
+deposit_group | is_deposit_expired | average_interest
+Venomous Tongue | 0 | 16.698947
+Venomous Tongue | 1 | 13.147500
+Troll Chest | 0 | 21.623571
+
+
+### 12.	Rich Wizard, Poor Wizard* ###
+Give Mr. Bodrog some data to play his favorite game Rich Wizard, Poor Wizard. The rules are simple: You compare the deposits of every wizard with the wizard after him. If a wizard is the last one in the database, simply ignore it. At the end you have to sum the difference between the deposits.
+
+host_wizard | host_wizard_deposit | guest_wizard | guest_wizard_deposit | difference
+--- | --- | --- | --- | ---
+Harry | 10 000 | Tom | 12 000 | -2000
+Tom | 12 000 |
+… | … | …
+
+At the end your query should return a single value: the SUM of all differences.
+Example:
+sum_difference
+| --- |
+44393.97
 
 
