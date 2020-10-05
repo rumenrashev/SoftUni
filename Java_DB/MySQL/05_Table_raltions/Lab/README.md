@@ -3,7 +3,7 @@
 This document defines the lab assignments for MySQL Course at Software University.
 Get familiar with the camp database. You will use it in the following exercises.
 
-###    1.  Mountains and Peaks ###0
+###    1.  Mountains and Peaks ###
 Write a query to create two tables – mountains and peaks and link their fields properly. Tables should have:
 #####    • Mountains: #####
     • id 
