@@ -1,9 +1,10 @@
-USE `soft_uni`;
-
-SELECT `employee_id`,
-       `first_name`,
-       `last_name`,
-       `department_id`,
-       `last_name`
-FROM `employees`
-WHERE `manager_id` IS NULL;
+SELECT 
+    e.employee_id,
+    e.first_name,
+    e.last_name,
+    e.department_id,
+    e.salary
+FROM
+    `employees` AS e
+WHERE
+    ISNULL(e.manager_id);
