@@ -35,18 +35,20 @@ public class AppRunner implements CommandLineRunner {
         authorService.seedAuthors();
         categoryService.seedCategories();
         bookService.seedBooks();
-        task01();
-        task02();
-        task03();
-        task04();
-        task05();
-        task06();
-        task07();
-        task08();
-        task09();
-        task10();
-        task11();
-        task12();
+//        task01();
+//        task02();
+//        task03();
+//        task04();
+//        task05();
+//        task06();
+//        task07();
+//        task08();
+//        task09();
+//        task10();
+//        task11();
+//        task12();
+//        task13();
+        task14();
     }
 
     private void task01() {
@@ -139,5 +141,22 @@ public class AppRunner implements CommandLineRunner {
         Task12 task12 = new Task12(bookRepository);
         task12.solve(date1,copies1);
         task12.solve(date2,copies2);
+    }
+
+    private void task13() {
+        final int copies = 250;
+        this.bookRepository.removeAllByCopiesLessThan(copies);
+    }
+
+    private void task14() {
+        final String fullName1 = "Amanda Rice";
+        final String fullName2 = "Christina Jordan";
+        final String fullName3 = "Wanda Morales";
+
+        Task14 task14 = new Task14(authorRepository);
+        task14.solve(fullName1);
+        task14.solve(fullName2);
+        task14.solve(fullName3);
+
     }
 }

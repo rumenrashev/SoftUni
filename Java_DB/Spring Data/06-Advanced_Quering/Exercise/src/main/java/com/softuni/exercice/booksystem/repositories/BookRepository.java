@@ -44,4 +44,7 @@ public interface BookRepository extends JpaRepository<Book, Long> {
     int increaseCopiesInGivenList(@Param("increase") int increase,
                                   @Param("books") List<Book> books);
 
+    @Transactional
+    public void removeAllByCopiesLessThan(int copies);
+
 }

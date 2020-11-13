@@ -86,6 +86,20 @@ public class Conditions {
                     "    • On the second line – number of book copies each book should be increased with.\n" +
                     "Output\n" +
                     "    • Total number of books that was added to the database.\n" +
-            DELIMITER;
+                    DELIMITER;
 
+    public static final String TASK_13_CONDITION =
+            DELIMITER +
+                    "\n    13. * Remove Books\n" +
+                    "Write a program that removes from the database those books, which copies are lower than a given number. \n" +
+                    "Print the number of books that were deleted from the database.\n" +
+                    DELIMITER;
+
+    public static final String TASK_14_CONDITION =
+            DELIMITER +
+                    "\n    14. * Stored Procedure\n" +
+                    "Using Workbench (or other similar tool) create a stored procedure, which receives an author's first and last name \n" +
+                    "and returns the total amount of books the author has written. Then write a program that receives an author's name \n" +
+                    "and prints the total number of books the author has written by using the stored procedure you've just created.\n" +
+                    DELIMITER;
 }
